@@ -1,0 +1,28 @@
+name: Run Cypress Tests
+
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    full-accessibility-audit-custom:
+        name: Full Accessibility Audit Custom
+        uses: StackOverflowIsBetterThanAnyAI/full-accessibility-audit/.github/workflows/full-accessibility-audit.yml@master
+        with:
+            app_port: "4200"
+            start_command: "npx ng serve --host 0.0.0.0 --port 4200 --watch=false"
+
+    full-accessibility-audit-axe:
+        name: Full Accessibility Audit Axe
+        uses: StackOverflowIsBetterThanAnyAI/full-accessibility-audit/.github/workflows/full-accessibility-audit.yml@axe
+        with:
+            app_port: "4200"
+            start_command: "npx ng serve --host 0.0.0.0 --port 4200 --watch=false"
+
+    full-accessibility-audit-alfa:
+        name: Full Accessibility Audit Alfa
+        uses: StackOverflowIsBetterThanAnyAI/full-accessibility-audit/.github/workflows/full-accessibility-audit.yml@alfa
+        with:
+            app_port: "4200"
+            start_command: "npx ng serve --host 0.0.0.0 --port 4200 --watch=false"
