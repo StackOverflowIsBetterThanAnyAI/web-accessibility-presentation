@@ -52,6 +52,7 @@
 ## Links
 
 - 2x link relies on color alone
+- 4x insufficient color contrast
 - 4x link has bad accessible name
 - 1x bad heading order
 - 2x insufficient line height
