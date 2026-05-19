@@ -1,33 +1,57 @@
 ## Web Accessibility Presentation
 
-### Description
+## General
 
-This project demonstrates a few examples of good and bad practices of
-web accessibility, so it can be used as a framework to apply more
-inclusive practices to an application.
+- 9x wrong lang value
 
-### Starting a project
+## Aria-Label
 
-- To start the application, execute the following commands:
-  - First execute `npm install`
-  - And then execute `ng serve`
+- 1x button has no accessible name
+- 1x bad heading order
+- 2x insufficient line height
 
-### Images
+## Button
 
-![Web accessibility examples](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/1-web-accessibility-examples.png?raw=true)
+- 3x button cannot be reached by keyboard
+- 3x button cannot be activated by keyboard
+- 1x bad heading order
+- 2x insufficient line height
 
-![Aria landmarks](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/2-aria-landmarks.png?raw=true)
+## Colors
 
-![Buttons](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/3-buttons.png?raw=true)
+- 1x insufficient color contrast
+- 1x bad heading order
+- 2x insufficient line height
 
-![Color contrast](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/4-color-contrast.png?raw=true)
+## Headings
 
-![Headings](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/5-headings.png?raw=true)
+- 2x bad heading order
+- 2x insufficient line height
 
-![Image alt text](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/6-image-alt-text.png?raw=true)
+## Images
 
-![Keyboard navigation](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/7-keyboard-navigation.png?raw=true)
+- 1x image has no alt text
+- 1x bad heading order
+- 2x insufficient line height
 
-![Input labels](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/8-input-labels.png?raw=true)
+## Keyboard Navigation
 
-![Link underlines](https://github.com/datomarjanidze/web-accessibility-presentation/blob/main/src/assets/images/examples/9-link-underlines.png?raw=true)
+- 1x bad focus order
+- 1x button has no focus indicator
+- 1x disabled button is not marked as disabled
+- 1x modal cannot be closed by escape
+- 1x bad heading order
+- 2x insufficient line height
+
+## Labels
+
+- 1x input has no label
+- 1x bad heading order
+- 2x insufficient line height
+
+## Links
+
+- 2x link relies on color alone
+- 4x link has bad accessible name
+- 1x bad heading order
+- 2x insufficient line height
