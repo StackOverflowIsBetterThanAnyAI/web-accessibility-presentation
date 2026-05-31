@@ -22,6 +22,8 @@
 - 1x insufficient color contrast
 - 1x bad heading order
 - 2x insufficient line height
+- 4x insufficient contrast in hover state
+- 4x insufficient contrast in focus state
 
 ## Headings
 
