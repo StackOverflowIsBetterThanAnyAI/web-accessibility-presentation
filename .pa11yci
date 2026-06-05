@@ -1,15 +1,23 @@
 {
-    "defaults": {
-        "timeout": 50000,
-        "standard": "WCAG2AA",
-        "chromeLaunchConfig": {
-            "args": [
-                "--no-sandbox",
-                "--disable-setuid-sandbox"
-            ]
-        }
-    },
-    "urls": [
-        "http://localhost:5173"
-    ]
+  "defaults": {
+    "timeout": 50000,
+    "standard": "WCAG2AA",
+    "chromeLaunchConfig": {
+      "args": [
+        "--no-sandbox",
+        "--disable-setuid-sandbox"
+      ]
+    }
+  },
+  "urls": [
+    "http://localhost:4200/examples",
+    "http://localhost:4200/examples/aria-landmarks",
+    "http://localhost:4200/examples/button",
+    "http://localhost:4200/examples/color-contrast",
+    "http://localhost:4200/examples/headings",
+    "http://localhost:4200/examples/image-alt-text",
+    "http://localhost:4200/examples/keyboard-navigation",
+    "http://localhost:4200/examples/input-labels",
+    "http://localhost:4200/examples/link-underlines"
+  ]
 }
